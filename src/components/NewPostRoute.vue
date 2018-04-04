@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import makeSlug from 'slug'
+import makeSlug from 'slugify'
 import { blogDb } from '@/services/db'
 
 export default {
